@@ -48,4 +48,4 @@ In order to address this question empirically.
 
 ## Acknowledgement
 
-It would not have been possible to do such project in short time span of 18 days without the support of my woderful teammates Woohyun Eum and Oscar Guarnizo and teaching assistants Sean Bryne and Jospeh Donovan. Also I would like to thank NMA for giving this wonderful research oriented project experience. It was a great fun and learning experience!
+It would not have been possible to do such a project in short time span of 18 days of Summer School without the support of my wonderful teammates Woohyun Eum and Oscar Guarnizo and teaching assistants Sean Bryne and Jospeh Donovan. Also I would like to thank NMA for giving opportunity and platform to gain this wonderful research oriented project experience. It was a great fun and learning experience!
