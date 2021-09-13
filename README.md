@@ -6,6 +6,11 @@
 
 This repository contains Short Research Project I did being part of [NMA Deep Learning Summer School, 2021](https://deeplearning.neuromatch.io/). Our project is titled as "Transfer Learning Study on fMRI Images".
 
+
+# Abstract
+
+<p>Deep learning has achieved significant results in multiple tasks, nonetheless the training procedure relies on large data and requires a lot of time. Transfer learning, which exchanges pretrained knowledge across different domains and tasks, has been demonstrated to be an effective method to solve these problems. In the medical domain, transfer learning still remains a great challenge due to several drawbacks such as the scarcity of data, the feature difference between natural and medical images, and ethical concerns. In this study, we investigate the effect of network architecture, particularly the classifier, into the adaptability of transfer learning. Our task is classifying the brain tumor into four categories with brain MRI images: no tumor, glioma tumor, meningioma tumor, and pituitary tumor. Our network is based on the VGG network because it provides multiple depth architecture and is simple enough to analyze the effect of each variation. From empirical results, we got promising results around 83% with VGG11 and batch normalization, demonstrating the usefulness of our study. Nevertheless, he found that more complex architectures such as VGG16 or VGG19 do not represent a considerable improvement to the transfer learning task. We suggest further studies in augmentation techniques, which could be used to overcome certain overfitting</p>
+
 ## Transfer Learning
 
 In this study, we worked with Transfer learning. It allow us to exchange pre-trained knowledge across different domains and tasks, where the fundamental idea is to reuse pre-trained weights of a network and transfer to one. This method has been demonstrated to be really effective to solve problems related with scarcity of data, which is a great problem with fMRI images.
