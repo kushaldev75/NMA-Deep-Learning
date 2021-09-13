@@ -27,7 +27,7 @@ Interestingly, we discovered this NeurIPS 2019 paper titled “Transfusion: Unde
 In this work, they also investigate some central questions for transfer learning in medical imaging tasks. And surprisingly, one of the conclusions they draw is that transfer learning does not significantly affect performance on medical imaging tasks, with models trained from scratch performing nearly as well as standard ImageNet transferred models.
 Looking at this strong point made by them, we lead framing our Research Question as:
 
-## <p align='center'><b><I>“Whether we can optimally do knowledge transfer from natural images domain to a medical domain and maximize performance”</I></b></p>
+<p align='center'><b><I>“Whether we can optimally do knowledge transfer from natural images domain to a medical domain and maximize performance”</I></b></p>
 
 ## Dataset 
 
