@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/74819807/133071295-b53d90b5-9b82-40c6-8052-334a20b109b5.png" width=800 height=360></img>
 </p>
 
-This repository contains Short Research Project I did being part of [NMA Deep Learning Summer School, 2021](https://deeplearning.neuromatch.io/). Our project is titled as "Transfer Learning Study on fMRI Images". It is specifically focused on transfer learning in compute vision for medical imaging data.
+This repository contains Short Research Project I did being part of [NMA Deep Learning Summer School, 2021](https://deeplearning.neuromatch.io/). Our project is titled as "Transfer Learning Study on fMRI Images". It is specifically focused on transfer learning in computer vision for medical imaging data.
 
 
 # Abstract
