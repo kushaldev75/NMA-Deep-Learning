@@ -1,7 +1,7 @@
 # Transfer Learning Study on fMRI Images
 
 <p align='center'>
-<img src="https://user-images.githubusercontent.com/74819807/133071295-b53d90b5-9b82-40c6-8052-334a20b109b5.png" width=800 height=360></img>
+<img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot1.png" width=800 height=360></img>
 </p>
 
 This repository contains Short Research Project I did being part of [NMA Deep Learning Summer School, 2021](https://deeplearning.neuromatch.io/). Our project is titled as "Transfer Learning Study on fMRI Images". It is specifically focused on transfer learning in computer vision for medical imaging data.
@@ -45,6 +45,18 @@ In order to address this question empirically.
 - The images have an in-plane resolution of 512 by 512. And this dataset is built by a collection of 3064 slices from 233 patients containing 3 tumor classes namely meningioma, glioma, pituitary tumor and one no tumor class
 
 ## Results
+
+<p align='center'>
+<img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot1.png" width=600 height=300></img>
+</p>
+
+<p align='center'>
+<img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot2.png" width=600 height=300></img>
+</p>
+
+<p align='center'>
+<img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot3.PNG" width=300 height=300></img>
+</p>
 
 ## Acknowledgement
 
