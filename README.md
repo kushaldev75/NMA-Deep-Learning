@@ -46,17 +46,55 @@ In order to address this question empirically.
 
 ## Results
 
+Observations:
+1.   The architectures with batch normalization seems to behave worse than the conventional architectures at least on the initial iterations because they got lower accuracy in both train and test dataset.
+2. 	However, the batch normalization architectures seem to reduce the overfitting gap between train and validation curves.
+
 <p align='center'>
 <img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot1.png" width=600 height=300></img>
 </p>
+
+The same behavior with respect to the gap and accuracy is maintained in this experiments. However, now we got less accuracy than the expected, which suggests that the addition of additional linear layers does not contributes to the performance of the method.
 
 <p align='center'>
 <img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot2.png" width=600 height=300></img>
 </p>
 
+We reported our best accuracy and loss with the VGG 11 network. The significant differences between prior trials are the number of layers to decrease features, batch size, and data augmentation. 
+
+First, it was proposed that a few classifier layers were hard to learn new data features. Therefore, we decrease feature numbers smoothly with three linear layers and the batch sizes for better training. 
+
+Furthermore, to prohibit overfitting problems, we augmented the dataset by random rotation for 30 degrees. Since the brain images are symmetric and have some direction information, we set the degree only to 30, which is widely acceptable for medical image data augmentation.
+
+Best Model Hyperparameters:
+
+- Model architecture: VGG11 feature extractor 25088 -> 2048 (Dropout-0.7) -> 256 (Dropout-0.6) -> 4
+- Adam optimizer with learning rate: 1e-4
+- batch size of 32
+- number of epochs: 20
+- Augmentation: RandomRotation(degrees=30) (from torchvision.transforms)
+
+
+Best Model Performance:
+
+- Accuracy: 84.26%
+- Precision: 92.01%
+- Recall: 84.26%
+- F1-Score: 85.64%
+
+
 <p align='center'>
 <img src="https://github.com/kushaldev75/NMA-Deep-Learning/blob/main/plots/plot3.PNG" width=300 height=300></img>
 </p>
+
+## Conclusion and Further Study
+
+- By acheiving the best model accuracy over 84%, our model in some way achieves the proposed goal and validates our hypothesis that we can successfully make transfer of knowledge to medical imaging domain. 
+- However, we did not overcome the overfitting gap, which clearly can be appreciate as a challenging task in this problem.
+- We suggest also to evaluate the model with more representative metrics such as Recall, Precision, and F1-score
+
+From the results, networks with few layers show better accuracy than more layers. Also, we expect the batch normalization could improve the performance, but it didn’t. With this result, our conclusion is that the light model shows better results than complex models. We expect that the simple model is better as it is robust to data noise and flexible enough to learn new features. 
+
 
 ## Acknowledgement
 
